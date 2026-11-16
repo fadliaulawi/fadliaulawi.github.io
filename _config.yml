@@ -1,0 +1,28 @@
+title: Fadli Aulawi Al Ghiffari
+position: Master's Student in NLP
+affiliation: MBZUAI
+affiliation_link: https://mbzuai.ac.ae/
+email: fadliaulawia@gmail.com
+description: Fadli Aulawi Al Ghiffari — biomedical AI, scientific agents, foundation models, and natural language processing.
+keywords: biomedical AI, AI for Science, NLP, bioinformatics, scientific agents
+url: https://fadliaulawi.github.io
+baseurl: ""
+canonical: https://fadliaulawi.github.io/
+lang: en
+cv_link: assets/files/cv.pdf
+github_link: https://github.com/fadliaulawi
+linkedin: https://www.linkedin.com/in/fadliaulawi/
+avatar: assets/img/profile.png
+favicon: assets/img/profile.png
+favicon_dark: assets/img/profile.png
+enable_footnote: true
+auto_dark_mode: true
+font: Sans Serif
+markdown: kramdown
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - minimal-light.zip
