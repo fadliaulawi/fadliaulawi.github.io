@@ -45,6 +45,15 @@ Cross-lingual and hierarchical transfer learning for dependency parsing in low-r
 
 [Paper](https://aclanthology.org/2023.ijcnlp-srw.1/)
 
+### TimpaTeks: Automatic In-place Text Sequence Modification via Diffusion Language Model Steering
+
+Ryandito Diandaru, Ahmed Elshabrawy, **Fadli Aulawi Al Ghiffari**, Ikhlasul Akmal Hanif, Alham Fikri Aji<br>
+*arXiv preprint · 2026*
+
+Activation steering for diffusion language models that modifies text in place to express a target concept while preserving sentence structure. Evaluated on sentiment and concept steering without instruction-tuned models.
+
+[Paper](https://arxiv.org/abs/2606.08408)
+
 ## Experience
 
 **Applied Scientist Intern · Inception**, Abu Dhabi<br>
