@@ -6,7 +6,7 @@ Academic profile using [Minimal Light](https://github.com/yaoyao-liu/minimal-lig
 
 - `index.md`: biography, research, projects, experience, education, and honors.
 - `_config.yml`: name, affiliation, contact links, and theme settings.
-- `assets/img/profile.png`: profile photo.
+- `assets/img/profile.jpg`: profile photo.
 - `assets/files/cv.pdf`: downloadable CV (copied from the October 2026 CV).
 
 Content was adapted from `../cv.tex` and the sections it includes. BioDyad is labeled as an ICLR 2027 submission, not an accepted publication. Unused example sections from the original CV template are excluded.

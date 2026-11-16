@@ -12,9 +12,9 @@ lang: en
 cv_link: assets/files/cv.pdf
 github_link: https://github.com/fadliaulawi
 linkedin: https://www.linkedin.com/in/fadliaulawi/
-avatar: assets/img/profile.png
-favicon: assets/img/profile.png
-favicon_dark: assets/img/profile.png
+avatar: assets/img/profile.jpg
+favicon: assets/img/favicon.svg
+favicon_dark: assets/img/favicon.svg
 enable_footnote: true
 auto_dark_mode: true
 font: Sans Serif

@@ -1,0 +1,131 @@
+/* Small additions to Minimal Light, shared by both color themes. */
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  box-sizing: border-box;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.image.avatar img {
+  display: block;
+  width: 144px;
+  height: 144px;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 auto 22px;
+}
+
+.section-nav {
+  display: grid;
+  gap: 2px;
+  border-top: 1px solid #dce3e9;
+  padding-top: 14px;
+  text-align: left;
+}
+
+.section-nav a {
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #043361;
+}
+
+.section-nav a:hover,
+.section-nav a:focus-visible {
+  background: #edf4f8;
+  text-decoration: underline;
+}
+
+section[role="main"] > h2 {
+  border-top: 1px solid #dce3e9;
+  padding-top: 26px;
+  margin-top: 32px;
+  scroll-margin-top: 24px;
+}
+
+section[role="main"] > h2:first-child {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.project {
+  border-bottom: 1px solid #dce3e9;
+  padding: 12px 0;
+}
+
+.project:has(+ h2) {
+  border-bottom: 0;
+}
+
+.project summary {
+  cursor: pointer;
+  color: #043361;
+  font-weight: 500;
+}
+
+.project summary:hover {
+  text-decoration: underline;
+}
+
+.project summary:focus-visible {
+  outline: 2px solid #39c;
+  outline-offset: 4px;
+}
+
+.project p {
+  margin: 12px 0 0;
+}
+
+@media (max-width: 960px) {
+  header {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .section-nav,
+  .project,
+  section[role="main"] > h2 {
+    border-color: #414653;
+  }
+
+  .section-nav a,
+  .project summary {
+    color: #3eb7f0;
+  }
+
+  .section-nav a:hover,
+  .section-nav a:focus-visible {
+    background: #2c3340;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  header {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .section-nav {
+    display: none;
+  }
+}
